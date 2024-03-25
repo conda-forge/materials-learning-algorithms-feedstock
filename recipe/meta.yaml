@@ -1,5 +1,5 @@
 {% set name = "materials-learning-algorithms" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,9 @@ package:
 
 source:
   url: https://github.com/mala-project/mala/archive/v{{ version }}.tar.gz
-  sha256: 4fef961c31449da306a16cc431343a38cbc5092e062c56d9fc2dcd8f9d17d136
+  sha256: 2b8f1b719e8d0138b9066339911291140af811ce3d087997f223f00884a4614b
+  patches:
+    - requirements.patch
 
 build:
   noarch: python
@@ -28,6 +30,7 @@ requirements:
     - pandas
     - tensorboard
     - pytorch
+    - openpmd-api
 
 test:
   imports:
