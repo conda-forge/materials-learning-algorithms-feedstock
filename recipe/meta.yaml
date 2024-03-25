@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/mala-project/mala/archive/v{{ version }}.tar.gz
   sha256: 5514a2f1d46037166fbd03accf71fdb55128487831325679b46653b098a1cc5f
+  patches:
+    - requirements.patch
 
 build:
   noarch: python

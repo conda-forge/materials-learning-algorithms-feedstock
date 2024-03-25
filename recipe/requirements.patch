@@ -1,0 +1,18 @@
+From 2f6882cad513832ae6d28ae6da53751cdcbfdcb8 Mon Sep 17 00:00:00 2001
+From: Jan Janssen <jan-janssen@users.noreply.github.com>
+Date: Mon, 25 Mar 2024 09:37:29 -0500
+Subject: [PATCH] Update requirements.txt
+
+---
+ requirements.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/requirements.txt b/requirements.txt
+index 1892d43f..2dea99b1 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -8,4 +8,3 @@ optuna
+ scipy
+ pandas
+ tensorboard
+-openpmd-api>=0.15
