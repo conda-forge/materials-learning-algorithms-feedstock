@@ -1,5 +1,5 @@
 {% set name = "materials-learning-algorithms" %}
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mala-project/mala/archive/v{{ version }}.tar.gz
-  sha256: 5514a2f1d46037166fbd03accf71fdb55128487831325679b46653b098a1cc5f
+  sha256: 1ef396192b0c5e561bde8e79c4834d295cdd055dc9ef68f3e8b2d68e837035c5
   patches:
     - requirements.patch
 
