@@ -11,8 +11,10 @@ diff --git a/requirements.txt b/requirements.txt
 index 1892d43f..2dea99b1 100644
 --- a/requirements.txt
 +++ b/requirements.txt
-@@ -8,4 +8,3 @@ optuna
+@@ -8,6 +8,5 @@ optuna
  scipy
  pandas
  tensorboard
--openpmd-api>=0.15
+-openpmd-api
+ scikit-spatial
+ tqdm
