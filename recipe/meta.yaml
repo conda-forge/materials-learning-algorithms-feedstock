@@ -33,6 +33,8 @@ requirements:
     - tensorboard
     - pytorch
     - openpmd-api
+    - scikit-spatial
+    - tqdm
 
 test:
   imports:
