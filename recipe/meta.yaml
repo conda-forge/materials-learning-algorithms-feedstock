@@ -35,7 +35,7 @@ requirements:
     - openpmd-api
     - scikit-spatial
     - tqdm
-    - mendeleev
+    - mendeleev >=1.0.0
     - meson
     - ninja
 
