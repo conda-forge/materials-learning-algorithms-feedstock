@@ -1,20 +1,25 @@
-From 2f6882cad513832ae6d28ae6da53751cdcbfdcb8 Mon Sep 17 00:00:00 2001
+From 724035caf7801d51c68b4637ef6b9189b11a5b68 Mon Sep 17 00:00:00 2001
 From: Jan Janssen <jan-janssen@users.noreply.github.com>
-Date: Mon, 25 Mar 2024 09:37:29 -0500
+Date: Mon, 2 Jun 2025 18:40:22 +0200
 Subject: [PATCH] Update requirements.txt
 
 ---
- requirements.txt | 1 -
- 1 file changed, 1 deletion(-)
+ requirements.txt | 4 ----
+ 1 file changed, 4 deletions(-)
 
 diff --git a/requirements.txt b/requirements.txt
-index 1892d43f..2dea99b1 100644
+index 67f525e7..1154dbb8 100644
 --- a/requirements.txt
 +++ b/requirements.txt
-@@ -8,6 +8,5 @@ optuna
+@@ -15,11 +15,7 @@ optuna
  scipy
  pandas
  tensorboard
 -openpmd-api
  scikit-spatial
  tqdm
+ mendeleev >= 1.0.0
+ sympy
+-meson
+-ninja
+-
