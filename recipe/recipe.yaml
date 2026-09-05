@@ -32,7 +32,7 @@ requirements:
     - numpy >=2
     - optuna
     - scipy
-    - pandas
+    - pandas <3.0,>=2.1
     - tensorboard
     - pytorch
     - openpmd-api
