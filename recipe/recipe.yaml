@@ -22,7 +22,7 @@ build:
 
 requirements:
   host:
-    - python 3.12.*
+    - python ${{ python_min }}.*
     - pip
     - setuptools
   run:
@@ -45,7 +45,9 @@ tests:
       imports:
         - mala
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: Materials Learning Algorithms. A framework for machine learning materials properties from first-principles data.
